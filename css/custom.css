@@ -1,0 +1,45 @@
+body{
+    background-image: url("../images/homebkg.png");
+    background-color: #b1d1e0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.bgcolor{
+    background-color: #ffffff75;
+}
+.max400{
+    max-width: 500px;
+}
+.max175{
+    width: 175px;
+    padding: 10px;
+}
+
+.buttionstatic{
+    padding: 5px 12px 5px 12px;
+    background-color: midnightblue;
+    border: solid 2px #ffffff;
+    margin: 12px;
+    border-radius: 12px;
+}
+.textcolor{
+    color:#ffffff;
+}
+.bkgbody2{
+    background-image: url("../images/p2bkg.png");
+    background-color: #b1d1e0;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height:100vh;
+    
+    
+}
+
+.bodybutton{
+    background-color:orangered;
+}
+
+
