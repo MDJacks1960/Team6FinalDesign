@@ -57,6 +57,37 @@
         </div>
       </div>
     </div>
+
+    <button class="bg-transparent border-none" onclick="myFunction()">Try it</button>
+
+<div id="myDIV" class="text-center">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary buttionstatic" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ Congratulations You Have Beaten all the Challenges
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel">Congratulations You Have High Score<br>All 3 Challenges 100% Correct</h4>
+       
+      </div>
+      <div class="modal-body">
+        <div class="DivWithScroll">
+          <img class="max300" src="images/avatar.png">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
     <div class="row justify-content-center mt-5">
       <div class=" col-xs-12 col-lg-2 text-center"><img src="images/download.png"></div>
       <div class=" col-xs-12 col-lg-8"><h5 class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque, quam aliquid totam nemo dolorum fugiat, nisi hic nesciunt, quidem ex animi maiores? Repudiandae delectus, a nulla deleniti necessitatibus nostrum.</h5>
@@ -106,6 +137,17 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
