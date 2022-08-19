@@ -9,7 +9,7 @@ body{
 .bgcolor{
     background-color: #ffffff75;
 }
-.max400{
+.max500{
     max-width: 500px;
 }
 .max175{
@@ -28,18 +28,29 @@ body{
     color:#ffffff;
 }
 .bkgbody2{
-    background-image: url("../images/p2bkg.png");
-    background-color: #b1d1e0;
-    background-size: cover;
+    background-image: url("../images/newbkg.png");
     background-repeat: repeat;
-    background-position: center;
-    height:100vh;
-    
-    
 }
 
 .bodybutton{
     background-color:orangered;
 }
+
+.bgnav{
+    background-color: #00000050;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bgnav:hover{
+    background-color: #FFAC1C;
+    color: #ffffff;
+}
+
+
+
 
 
