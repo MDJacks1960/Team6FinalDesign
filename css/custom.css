@@ -2,12 +2,13 @@ body{
     background-image: url("../images/homebkg.png");
     background-color: #b1d1e0;
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
 }
 .bgcolor{
-    background-color: #ffffff75;
+    background-color: #ffffff85;
 }
 .max500{
     max-width: 500px;
