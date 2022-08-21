@@ -95,10 +95,9 @@ h5, h3, h2, h1{
 
 .opacity:hover{
     opacity: 0.50;
-    transition: .5s ease;
-    
-    
+    transition: .5s ease;   
 }
+
 
 
 
