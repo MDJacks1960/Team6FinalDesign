@@ -94,6 +94,13 @@ h5, h3, h2, h1{
     box-shadow: 12px 12px black;
 }
 
+.opacity:hover{
+    opacity: 0.50;
+    transition: .5s ease;
+    
+    
+}
+
 
 
 
