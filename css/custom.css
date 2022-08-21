@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/homebkg.png");
+    background-image: url("../images/homepagebackground.png");
     background-color: #b1d1e0;
     background-size: cover;
     background-attachment: fixed;
@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 .bgcolor{
-    background-color: #ffffff85;
+    background-color: #ffffff95;
 }
 .max500{
     max-width: 500px;
@@ -19,12 +19,16 @@ body{
 }
 
 .buttionstatic{
-    padding: 5px 12px 5px 12px;
+    padding: 12px;
     background-color: midnightblue;
     border: solid 2px #ffffff;
-    margin: 12px;
     border-radius: 12px;
 }
+
+.buttionstatic:hover{
+    background-color: blue;
+}
+
 .textcolor{
     color:#ffffff;
 }
@@ -67,6 +71,31 @@ a{
     overflow:scroll;
     overflow-x:hidden;
 }
+h5, h3, h2, h1{
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+}
+
+.selected{
+    color:
+    #052CA3;
+}
+
+.fillgreen{
+    background-color: #32CD3290;
+}
+
+.textcolor{
+    color:white;
+}
+
+.shadow{
+   border-radius: 12px;
+    box-shadow: 12px 12px black;
+}
+
+
+
 
 
 
