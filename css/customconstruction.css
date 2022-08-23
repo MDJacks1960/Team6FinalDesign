@@ -1,0 +1,109 @@
+body{
+    background-image: url("../images/construction.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.bgcolor{
+    background-color: #ffffff95;
+}
+.max500{
+    max-width: 500px;
+}
+.max175{
+    width: 175px;
+    padding: 10px;
+}
+
+.buttionstatic{
+    padding: 12px;
+    background-color: midnightblue;
+    border: solid 2px #ffffff;
+    border-radius: 12px;
+}
+
+.buttionstatic:hover{
+    background-color: blue;
+}
+
+.textcolor{
+    color:#ffffff;
+}
+.bkgbody2{
+    background-image: url("../images/newbkg.png");
+    background-repeat: repeat;
+}
+
+.bodybutton{
+    background-color:orangered;
+}
+
+.bgnav{
+    background-color: #00000050;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bgnav:hover{
+    background-color: #FFAC1C;
+    color: #ffffff;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 5px;
+    display: none;
+  }
+  .max300{
+    max-width:300px;
+  }
+
+  .DivWithScroll{
+    height:100px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+h5, h3, h2, h1{
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+}
+
+.selected{
+    color:
+    #052CA3;
+}
+
+.fillgreen{
+    background-color: #32CD3290;
+}
+
+.textcolor{
+    color:white;
+}
+
+.shadow{
+   border-radius: 12px;
+    box-shadow: 12px 12px black;
+}
+
+.opacity:hover{
+    opacity: 0.50;
+    transition: .5s ease;   
+}
+
+
+
+
+
+
+
+
+
+
